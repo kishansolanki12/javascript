@@ -5,8 +5,8 @@ console.log(date);
 // Set method / get method
 
 // let result = date.getFullYear();
-let result = date.getMonth();
-// let result = date.getDate();
+// let result = date.getMonth();
+let result = date.getDate();
 // let result = date.getDay();
 // let result = date.getHours();
 // let result = date.getMinutes();
