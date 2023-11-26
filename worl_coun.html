@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Length Counter</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(214, 198, 198);
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: rgb(65, 117, 72);
+            font-size: 2em;
+        }
+
+        input {
+            background-color: rgba(95, 158, 160, 0.459);
+            padding: 10px;
+            font-size: 16px;
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        h4 {
+            font-size: 1.2em;
+        }
+
+        button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Length Counter</h1>
+  
+    <input type="text" placeholder="Enter Word" id="wordInput">
+    
+    <h4>Word Length: <span id="wordLength">0</span></h4>
+
+    <button onclick="count()">Word Count</button>
+
+    <script src="word_coun.js"></script>
+</body>
+</html>
